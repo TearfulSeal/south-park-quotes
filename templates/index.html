@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Main page
+{% endblock %}
+
+{% block main %}
+<div style="margin:5%">
+    <h1 style="width:25%"><b> Enter character's name</b></h1>
+    <form method="post" action="/">
+
+        <input class=" input" type="text" name="name" autocomplete="off" autofocus required/>
+
+        <button type="submit" class="button-30">
+            Submit
+        </button>
+
+    </form>
+</div>
+{%endblock%}

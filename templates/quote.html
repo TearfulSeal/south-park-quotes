@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+<div style="margin:5%">
+    <p>{{quote}}</p>
+    <img alt="{{char}}" src="static/chars/{{img}}" />
+
+</div>
+{%endblock%}
